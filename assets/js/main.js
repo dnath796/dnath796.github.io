@@ -25,11 +25,10 @@
   var typingEl = document.querySelector(".typing");
   if (typingEl && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     var words = [
-      "Quant Analyst",
-      "Web Developer",
-      "Problem Solver",
-      "Fast Learner",
-      "Software Developer"
+      "Full Stack Developer",
+      "Quantitative Finance Candidate",
+      "Data & Analytics Engineer",
+      "Problem Solver"
     ];
     var wordIndex = 0;
     var charIndex = 0;
@@ -57,6 +56,6 @@
     }
     tick();
   } else if (typingEl) {
-    typingEl.textContent = "Software Developer";
+    typingEl.textContent = "Full Stack Developer";
   }
 })();
