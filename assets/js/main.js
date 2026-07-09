@@ -26,8 +26,9 @@
   if (typingEl && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     var words = [
       "Full Stack Developer",
-      "Quantitative Finance Candidate",
-      "Data & Analytics Engineer",
+      "Quantitative Developer",
+      "Data Analytics Engineer",
+      "Portfolio Analyst",
       "Problem Solver"
     ];
     var wordIndex = 0;
